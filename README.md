@@ -1,70 +1,124 @@
-# Welcome to your Lovable project
+# Vinay Marabe | AI/ML Portfolio
 
-## Project info
+Modern portfolio website showcasing my work, experience, and technical depth in Artificial Intelligence, Machine Learning, and Generative AI.
 
-**URL**: https://lovable.dev/projects/a486fa44-b046-4b78-8fa0-d768f132a6ee
+## About Me
 
-## How can I edit this code?
+I am Vinay Marabe, an AI/ML Engineer based in Pune, India.
 
-There are several ways of editing your application.
+I build intelligent, user-centric systems with a strong focus on:
+- Generative AI applications
+- RAG pipelines and LLM integrations
+- NLP-driven product features
+- End-to-end machine learning workflows
 
-**Use Lovable**
+My work spans model development, API integration, and deployment-ready AI solutions across domains like recruitment tech, audiobook generation, automation, and healthcare-oriented analytics.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a486fa44-b046-4b78-8fa0-d768f132a6ee) and start prompting.
+## Quick Highlights
 
-Changes made via Lovable will be committed automatically to this repo.
+- Name: Vinay Marabe
+- Role: AI/ML Engineer
+- Education: B.Tech in AI/ML Engineering
+- Experience: 1+ year (internships, training, and applied projects)
+- Location: Pune, India
 
-**Use your preferred IDE**
+## Experience
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### AIML Intern | Thynk Tech India
+Nov 2025 - Apr 2026
+- Researched AI features to improve product capabilities and engagement.
+- Built AI-powered solutions for EdTech use cases.
+- Integrated ML models with production workflows.
+- Prototyped GenAI features for experimentation.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Trainee | Vikramaa Technologies
+Jul 2022 - Aug 2022
+- Completed industrial training in Advanced Java.
+- Worked with Java, Swing, Servlets, and backend basics.
+- Built small applications to strengthen OOP and architecture concepts.
 
-Follow these steps:
+## Featured Projects
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### ASD Detection Project
+Sponsored by Mass Technology Solutions. Built an end-to-end ASD classification pipeline using resting-state fMRI data (ABIDE dataset) with hybrid ML models.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### CareerAI
+AI recruitment platform using RAG + LLMs for resume parsing, candidate evaluation, and adaptive mock interviews with real-time scoring.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### SonicLens v1
+AI audiobook generator using Gemini API, LLM-based chunking for speaker detection, and a multi-voice TTS pipeline.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### News Summarizer WhatsApp Bot
+Automation bot that fetches headlines, summarizes them with Gemini via LangChain, and delivers digest updates to WhatsApp.
+
+## Technical Skills
+
+### GenAI and LLM Stack
+- RAG Pipelines
+- Gemini API
+- OpenAI API
+- LangChain
+
+### Machine Learning
+- Model Development
+- Scikit-learn
+- PyTorch
+- Statistical Analysis
+
+### Programming and Backend
+- Python
+- FastAPI
+- Java
+- JavaScript
+
+### Data and Tools
+- Pandas and NumPy
+- SQL
+- Git and GitHub
+- Jupyter Notebook
+
+## Tech Stack (Portfolio Website)
+
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- Three.js
+
+## Contact
+
+- Email: vinaymarbe40@gmail.com
+- Phone: +91 7028606033
+- LinkedIn: https://www.linkedin.com/in/vinay-marabe/
+- GitHub: https://github.com/VinayMarabe
+
+## Getting Started
+
+### Prerequisites
+- Node.js 20+
+- npm
+
+### Run Locally
+
+```bash
+git clone <your-repository-url>
+cd aiml-verse-portfolio-main
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app runs at `http://localhost:5173` by default.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Create production build
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint checks
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Deployment
 
-## What technologies are used for this project?
+This repository includes a GitHub Actions workflow at `.github/workflows/deploy-pages.yml` to deploy the `dist` output to GitHub Pages on pushes to `main`.
 
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a486fa44-b046-4b78-8fa0-d768f132a6ee) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
-# MyPortfolio
+If you want to deploy under a custom domain, configure your Pages settings and DNS records in your GitHub repository settings.
